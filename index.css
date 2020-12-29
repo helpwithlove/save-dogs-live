@@ -1,0 +1,82 @@
+body {
+	margin: 0;
+	background-color: #ffe;
+}
+
+header {
+	color: rgba(21, 61, 13, 0.993);
+	text-align: center;
+}
+section.dogs {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	align-content: center;
+}
+figure img {
+	width: 90%;
+}
+article {
+	width: 70%;
+	margin-left: 15%;
+	background-color: rgba(144, 204, 129, 0.411);
+	margin-bottom: 10%;
+	border: dashed 2px rgb(246, 248, 246);
+}
+
+article section {
+	margin-top: 20px;
+}
+article section h1 {
+	margin-left: 2%;
+}
+
+article section p {
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+section form {
+	margin-left: 30%;
+}
+
+section h3 {
+	color: red;
+	margin-left: 3%;
+}
+
+@media (max-width: 790px) {
+	header h1 {
+		margin: 25px 10px;
+		font-size: 22px;
+	}
+	article {
+		width: 90%;
+		margin-left: 5%;
+		background-color: rgba(240, 36, 179, 0.315);
+		margin-bottom: 10%;
+		border: dashed 2px rgb(246, 248, 246);
+	}
+
+	article section {
+		margin-top: 20px;
+	}
+	article section h1 {
+		margin-left: 2%;
+	}
+
+	article section p {
+		margin-left: 2%;
+		margin-right: 2%;
+	}
+
+	section form {
+		margin-left: 30%;
+	}
+
+	section h3 {
+		color: rgb(25, 11, 158);
+		margin-left: 3%;
+	}
+}
